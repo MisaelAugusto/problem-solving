@@ -4,7 +4,9 @@
   "description": "solutions for leetcode problems",
   "private": true,
   "scripts": {
-    "test": "jest --watchAll=false"
+    "test": "jest --watchAll=false",
+    "bc": "node scripts/new-problem.js --folder beecrowd",
+    "lc": "node scripts/new-problem.js --folder leet-code"
   },
   "author": "",
   "license": "ISC",
