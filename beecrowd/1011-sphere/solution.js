@@ -1,5 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const lines = [];
 
 const PI = 3.14159;
 const radius = +lines[0];

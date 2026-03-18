@@ -1,5 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const lines = [];
 
 const sum = (+lines[0] * 2) + (+lines[1] * 3) + (+lines[2] * 5);
 const avarage = sum / 10;

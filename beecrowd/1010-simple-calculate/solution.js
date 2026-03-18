@@ -1,5 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const lines = [];
 
 const [, units1, price1] = lines[0].split(' ');
 const [, units2, price2] = lines[1].split(' ');

@@ -107,8 +107,7 @@ function createProblemDir(targetFolder, folderName) {
   if (!isBeecrowd) fs.mkdirSync(testPath, { recursive: true });
 
   const solutionContent = isBeecrowd
-    ? `var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\\n');
+    ? `const lines = [];
 
 // your code here
 `
